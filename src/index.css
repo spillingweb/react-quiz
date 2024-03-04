@@ -325,3 +325,40 @@ header h1 {
     transform: translateY(0);
   }
 }
+
+@media only screen and (max-width: 700px) {
+  #summary h2 {
+    font-size: 2.5rem;
+  }
+
+  #summary-stats {
+    width: 70%;
+    gap: 0.5rem;
+  }
+
+  #summary-stats .number {
+    font-size: 2.5rem;
+    padding-bottom: 10px;
+  }  
+}
+
+@media only screen and (max-width: 600px) {
+  #summary h2 {
+    font-size: 2rem;
+  }
+
+  #summary-stats {
+    width: 80%;
+    gap: 0.5rem;
+  }
+
+  #summary-stats .number {
+    font-size: 1.5rem;
+    padding-bottom: 10px;
+  }
+
+  #summary-stats .text {
+    font-size: 0.65rem;
+  }
+  
+}

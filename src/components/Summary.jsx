@@ -19,15 +19,15 @@ export default function Summary({ userAnswers }) {
       <div id="summary-stats">
         <p>
           <span className="number">{skippedAnswersShare}%</span>
-          <span className="ext">skipped</span>
+          <span className="text">skipped</span>
         </p>
         <p>
           <span className="number">{correctAnswersShare}%</span>
-          <span className="ext">answered correctly</span>
+          <span className="text">answered correctly</span>
         </p>
         <p>
           <span className="number">{wrongAnswersShare}%</span>
-          <span className="ext">answered incorrectly</span>
+          <span className="text">answered incorrectly</span>
         </p>
       </div>
       <ol>
