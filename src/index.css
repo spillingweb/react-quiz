@@ -342,14 +342,31 @@ header h1 {
   }  
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 500px) {
+  header {
+    margin-top: 0;
+  }
+
+  header h1 {
+    font-size: 2rem;
+  }
+
+  #question h2 {
+    font-size: 1.1rem;
+  }
+
+  #summary {
+    padding: 1rem;
+  }
+  
   #summary h2 {
     font-size: 2rem;
   }
 
   #summary-stats {
-    width: 80%;
-    gap: 0.5rem;
+    margin: 1rem  auto;
+    width: 85%;
+    text-align: center;
   }
 
   #summary-stats .number {
@@ -358,7 +375,7 @@ header h1 {
   }
 
   #summary-stats .text {
-    font-size: 0.65rem;
+    font-size: 0.6rem;
   }
   
 }
